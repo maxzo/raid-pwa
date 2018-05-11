@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      <span class="boss">{{ raid.boss }}</span>
+      <span class="participants">{{ raid.participants }}/20</span>
+    </mat-card-title>
+    <mat-card-subtitle>{{ raid.gym }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions>
+    <button mat-button><mat-icon class="material-icons">info</mat-icon>Info</button>
+    <button mat-button *ngIf="raid.participants < 20"><mat-icon class="material-icons">input</mat-icon>Unirse</button>
+  </mat-card-actions>
+</mat-card>

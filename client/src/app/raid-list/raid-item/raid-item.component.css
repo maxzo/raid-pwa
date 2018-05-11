@@ -1,0 +1,29 @@
+.mat-card-title {
+  font-size: 18px;
+}
+
+mat-card-title {
+  display: flex;
+}
+
+.mat-card {
+  margin: 10px;
+}
+
+.mat-icon {
+  margin-right: 7px;
+}
+
+mat-card-actions {
+  text-align: right;
+}
+
+.boss {
+  width: 200px;
+}
+
+.participants {
+  flex-grow: 1;
+  text-align: right;
+  width: 90px;
+}
